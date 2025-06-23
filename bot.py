@@ -344,7 +344,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Go Home", callback_data="gotohome")
                     ]
                 ]
-            )
+            ) 
         )
 
     elif "gotohome" in cb_data:
