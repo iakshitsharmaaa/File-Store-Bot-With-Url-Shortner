@@ -3,15 +3,15 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "18669989"))
   API_HASH = os.environ.get("API_HASH", "945ff4f33bc584f6621c2d880c81b863")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7733545708:AAHE2skCFborMT7QBTEoXCD017Q9cfAAXwg")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "riyabhabivideosbot")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7343555012:AAGqRgxbektb3lieTws-hQ9ieVDKSS9Rc0A")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "ndtvthenewsbot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "mongodb+srv://yourakshit143:RpjT1CMgpigmIQab@cluster0.bvol5wc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "bitly.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "a309546cba009935ef1dd1c4c76b9c135fc2b5e0")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "dunts.xyz")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "b29cfce5f7d0a0faa3a879ddb43349b28ed9c307")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "6593367819"))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://yourakshit143:RpjT1CMgpigmIQab@cluster0.bvol5wc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002756031980")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002721132398"))
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002873217571"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -23,7 +23,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 
 ╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
 │
-├🔸 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
+├🔸 My Name: [FileStore Bot](https://t.me/{ndtvthenewsbot})
 │
 ├🔸 Language: [Python 3](https://www.python.org)
 │
@@ -32,11 +32,11 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/KingVj01)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [ndtvthenewsbot](https://t.me/{ndtvthenewsbot)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/KingVj01)
+[Donate Me](https://t.me/ndtvthenewsbot)
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
